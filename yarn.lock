@@ -1075,6 +1075,18 @@
   dependencies:
     "@types/node" "*"
 
+"@types/dom-mediacapture-transform@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.npmmirror.com/@types/dom-mediacapture-transform/download/@types/dom-mediacapture-transform-0.1.1.tgz#fe0e7e3f7735318277782cd20d4b43a789de7b76"
+  integrity sha1-/g5+P3c1MYJ3eCzSDUtDp4nee3Y=
+  dependencies:
+    "@types/dom-webcodecs" "*"
+
+"@types/dom-webcodecs@*":
+  version "0.1.2"
+  resolved "https://registry.npmmirror.com/@types/dom-webcodecs/download/@types/dom-webcodecs-0.1.2.tgz#0099b842f3a6010e8a284c9b8cbb0aeab20fce60"
+  integrity sha1-AJm4QvOmAQ6KKEybjLsK6rIPzmA=
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.1"
   resolved "https://registry.nlark.com/@types/eslint-scope/download/@types/eslint-scope-3.7.1.tgz#8dc390a7b4f9dd9f1284629efce982e41612116e"
@@ -1151,6 +1163,11 @@
   version "16.11.1"
   resolved "https://registry.npmmirror.com/@types/node/download/@types/node-16.11.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.11.1.tgz#2e50a649a50fc403433a14f829eface1a3443e97"
   integrity sha1-LlCmSaUPxANDOhT4Ke+s4aNEPpc=
+
+"@types/offscreencanvas@^2019.6.4":
+  version "2019.6.4"
+  resolved "https://registry.nlark.com/@types/offscreencanvas/download/@types/offscreencanvas-2019.6.4.tgz#64f6d120b53925028299c744fcdd32d2cd525963"
+  integrity sha1-ZPbRILU5JQKCmcdE/N0y0s1SWWM=
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1900,6 +1917,11 @@ colorette@^2.0.10, colorette@^2.0.14:
   version "2.0.16"
   resolved "https://registry.npmmirror.com/colorette/download/colorette-2.0.16.tgz?cache=0&sync_timestamp=1633673138036&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcolorette%2Fdownload%2Fcolorette-2.0.16.tgz#713b9af84fdb000139f04546bd4a93f62a5085da"
   integrity sha1-cTua+E/bAAE58EVGvUqT9ipQhdo=
+
+comlink@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.nlark.com/comlink/download/comlink-4.3.1.tgz#0c6b9d69bcd293715c907c33fe8fc45aecad13c5"
+  integrity sha1-DGudabzSk3FckHwz/o/EWuytE8U=
 
 commander@^2.20.0:
   version "2.20.3"
