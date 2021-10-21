@@ -32,6 +32,7 @@ export class FlipTransformer implements Transformer<VideoFrame, VideoFrame> {
       ctx.drawImage(frame, 0, 0);
       const data = ctx.getImageData(0, 0, width, height);
       if (data) {
+        ctx.clearRect(0, 0, width, height);
         beauty(data.data, data.width, data.height, 5);
         ctx?.putImageData(data, 0, 0, 0, 0, width, height);
         ctx.globalCompositeOperation = 'destination-over';
