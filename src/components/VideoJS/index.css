@@ -1,0 +1,69 @@
+.video-js .vjs-control-bar {
+    height: 4.4em;
+    background-color: #1f2329cc;
+  }
+  
+  .video-js .vjs-time-control {
+    display: block;
+    font-size: 13px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    min-width: unset;
+  }
+  
+  .video-js .vjs-time-divider {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .video-js .vjs-progress-control {
+    position: absolute;
+    bottom: 4em;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10px;
+  }
+  
+  .video-js .vjs-load-progress {
+    background: #8f959e;
+  }
+  
+  .video-js .vjs-play-progress {
+    background: #5672fa;
+  }
+  
+  .video-js .vjs-play-progress:before {
+    color: #5672fa;
+  }
+  
+  .video-js .vjs-progress-holder {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  .vjs-button > .vjs-icon-placeholder:before {
+    font-size: 20px;
+    height: unset;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .video-js .vjs-playback-rate .vjs-playback-rate-value {
+    font-size: 14px;
+    font-weight: bold;
+    height: unset;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .video-js .comment-input {
+    background: blue;
+    color: white;
+  }
+  
+  .video-js .comment-input:hover {
+    background: blue;
+  }

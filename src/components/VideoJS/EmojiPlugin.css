@@ -1,0 +1,15 @@
+.vjs-emoji {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s;
+}
+
+.vjs-has-started .vjs-emoji {
+  bottom: 48px;
+}
+
+.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-emoji {
+  bottom: 0;
+}
